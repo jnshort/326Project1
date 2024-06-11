@@ -1,0 +1,10 @@
+README 
+compilation/usage filecopy.c
+this version of filecopy is written for the linux operating system and will not compile on Windows or MacOS
+
+Compilation:
+run command 'make' or 'make filecopy' from inside directory
+alternatively to compile manually run 'gcc filecopy.c -o <name-of-executable>'
+
+Usage:
+run './filecopy <input_file> <output_file>'
