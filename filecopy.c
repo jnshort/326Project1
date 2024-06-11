@@ -50,7 +50,7 @@ int main(int argc, char *argv[]) {
 
     // In case fork returns error
     if (id == -1) {
-        fprintf(stderr, "Error: Unable to fork process\n", stderr);
+        fprintf(stderr, "Error: Unable to fork process\n");
         close(fd[WRITE_END]);
         close(fd[READ_END]);
         return -1;
